@@ -15,13 +15,11 @@ It is designed for:
 🔧 Folder Structure
 Each problem is in its own folder with the following layout:
 
-Copy
-Edit
 ProblemName/
 │
 ├── BruteForce/
 │   ├── BruteForce.java
-│   ├── BruteForceMain.java
+│   
 │
 ├── HashMapApproach/ or BetterApproach/
 │   └── ...
@@ -30,6 +28,7 @@ ProblemName/
 │   └── ...
 │
 └── README.md → Explains problem, logic, complexity, etc.
+
 ✨ Features
 🔍 Clearly structured code for each approach
 
@@ -42,22 +41,22 @@ ProblemName/
 ✅ Organized for easy updates and additions
 
 ✅ Problems Practiced So Far
-Sl.	Problem	Approaches Implemented
-1.	Two Sum	Brute Force, HashMap, Two Pointers
-2.	Second Largest Element in Array	Brute, Better, Optimal
-3.	Remove Duplicates (Sorted Array)	Brute, Optimal
-4.	Median of Two Sorted Arrays	Brute, Better, Optimal (Binary Search)
-5.	Max Sum Subarray of Size K	Brute, Optimal (Sliding Window)
+| Sl. | Problem                          | Approaches Implemented                 |
+| --- | -------------------------------- | -------------------------------------- |
+| 1.  | Two Sum                          | Brute Force, HashMap, Two Pointers     |
+| 2.  | Second Largest Element in Array  | Brute, Better, Optimal                 |
+| 3.  | Remove Duplicates (Sorted Array) | Brute, Optimal                         |
+| 4.  | Median of Two Sorted Arrays      | Brute, Better, Optimal (Binary Search) |
+| 5.  | Max Sum Subarray of Size K       | Brute, Optimal (Sliding Window)        |
+
 
 🔁 More problems will be added as I practice and grow.
 
 🚀 How to Run
 Clone the repo:
 
-bash
-Copy
-Edit
 git clone https://github.com/your-username/DSA-Java-Practice-Series.git
+
 Open in VS Code or any Java IDE
 
 Navigate to any problem folder and run Main.java inside the approach you want to test.
