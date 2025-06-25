@@ -2,7 +2,7 @@ This repository contains a growing collection of DSA (Data Structures & Algorith
 
 ✅ Brute Force → Better → Optimal
 
-It is designed for:
+It is designed for: 
 
 📚 Concept clarity
 
