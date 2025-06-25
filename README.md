@@ -19,13 +19,16 @@ ProblemName/
 │
 ├── BruteForce/
 │   ├── BruteForce.java
-│   
+│  
+|
 ├── HashMapApproach/ or BetterApproach/
 │   └── ...
 │
+|
 ├── OptimalApproach/
 │   └── ...
 │
+|
 └── README.md → Explains problem, logic, complexity, etc.
 
 ✨ Features
