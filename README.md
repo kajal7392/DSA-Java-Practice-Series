@@ -2,7 +2,7 @@ This repository contains a growing collection of DSA (Data Structures & Algorith
 
 ✅ Brute Force → Better → Optimal
 
-It is designed for:
+It is designed for: 
 
 📚 Concept clarity
 
@@ -19,13 +19,16 @@ ProblemName/
 │
 ├── BruteForce/
 │   ├── BruteForce.java
-│   
+│  
+|
 ├── HashMapApproach/ or BetterApproach/
 │   └── ...
 │
+|
 ├── OptimalApproach/
 │   └── ...
 │
+|
 └── README.md → Explains problem, logic, complexity, etc.
 
 ✨ Features
@@ -64,12 +67,16 @@ Share knowledge with peers preparing for placements
 
 
 👩‍💻 About Me
+
+
 Hi! I'm Kajal Sharma, a final-year BTech CSE student passionate about software development and problem solving.
 This repo is part of my preparation for interviews and my journey towards becoming a better Java developer.
 
 
 
 🤝 Contributions
+
+
 While this repo is focused on personal learning, if you’d like to suggest improvements or submit your own approaches, feel free to open a pull request or issue!
 
 
