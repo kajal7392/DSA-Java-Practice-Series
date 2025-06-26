@@ -30,35 +30,42 @@ Constraints:
 
 
 // Solution:
-public class BruteforceApproach {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class BetterApproach {
     public static void main(String[] args) {
-        int[] nums = {-1, 0, 1, 2, -1, -4};  //Example input
-        List <List<Integer>> result = threeSum(nums);
+        int[] nums = { -1, 0, 1, 2, -1, -4 };
+        List<List<Integer>> result = threeSum(nums);
 
         // Print the result
-        for(List<Integer> triplet : result) {
+        for (List<Integer> triplet : result) {
             System.out.println(triplet);
         }
     }
 
-    public static List<List<Integer>> threeSum (int[] nums) {
-        List<List<Integer>> triplets = new ArrayList<>();
-        int n= nums.length;
+    public static List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums); // Sort the array first
+        Set<List<Integer>> result = new HashSet<>();
+        int n = nums.length;
 
-        // Bruteforce Approach
-        for(int i=0; i<n; i++) {
-            for(int j=i+1; j<n; j++) {
-                for(int k=j+1; k<n; k++) {
-                    if(nums[i]+ nums[j] + nums[k] == 0) {
-                        List<Integer> triplet = new ArrayList<>();
-                         triplet.add(nums[i]);
-                         triplet.add(nums[j]);
-                         triplet.add(nums[k]);
-                         triplets.add(triplet);
-                    }
+        for (int i = 0; i < n - 2; i++) {
+            if (i > 0 && nums[i] == nums[i - 1]) continue; // Skip duplicates
+
+            int target = -nums[i];  // a + b + c = 0 → b + c = -a
+            Set<Integer> seen = new HashSet<>();
+
+            for (int j = i + 1; j < n; j++) {
+                int complement = target - nums[j];
+                if (seen.contains(complement)) {
+                    result.add(Arrays.asList(nums[i], complement, nums[j]));
                 }
+                seen.add(nums[j]);
             }
         }
-        return triplets;
+        return new ArrayList<>(result);
     }
 }
