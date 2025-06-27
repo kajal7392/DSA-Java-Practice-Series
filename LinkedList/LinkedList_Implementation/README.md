@@ -10,4 +10,4 @@ This repository contains various implementations and problems related to LinkedL
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/LinkedList-Implementation.git
+   git clone https://github.com/kajal7392/DSA-Java-Practice-Series/tree/19de098f971ad5152e9c7f107584cab0e8e9540d/LinkedList/LinkedList_Implementation
